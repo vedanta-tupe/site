@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f2e7; /* Cream background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.section-first {
+    text-align: center;
+    margin-bottom: 20px; /* Space below the top image */
+}
+
+.pic-ganpati {
+    width: auto;
+    height: 150px;
+}
+
+.pic-kundli {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 200px;
+}
+
+.bar-tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center align items vertically */
+    background-color: #e9e0d6;
+    padding: 15px 20px; /* Increased padding for a better look */
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 80px auto; /* Add top margin for fixed tab bar */
+    padding: 20px;
+    background-color: #fff; /* White background for content */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px; /* Rounded corners for tabs */
+}
+
+.tab:hover {
+    background-color: #d1c4b2; /* Light brown on hover */
+    color: #000; /* Darker text on hover for contrast */
+}
+
+.login {
+    font: 15px Arial, sans-serif;
+    margin-left: 10px;
+    background-color: #c8b59a; /* Beige background for login button */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.login:hover {
+    background-color: #b59e86; /* Slightly darker beige on hover */
+}
+
+.toggle-button {
+    font: 15px Arial, sans-serif;
+    background-color: #c8b59a; /* Beige background for toggle button */
+    height: 37px;
+    width: 70px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: auto;
+}
+
+.toggle-button:hover {
+    background-color: #b59e86; /* Slightly darker beige on hover */
+}
+
+.sections {
+    margin-bottom: 20px;
+    padding-top: 60px; /* Adjust this value based on the height of your tab bar */
+    margin-top: -60px; /* Negative margin to pull the section up */
+}
+
+h3 {
+    background-color: #F2D679;  /* Background color */
+    color: white;               /* White text */
+    padding: 10px 15px;         /* Add some padding for spacing */
+    margin: 0;                  /* Remove margin to keep the layout tight */
+
+    display: flex;              /* Enable flexbox for centering */
+    align-items: center;        /* Vertically center the text */
+    justify-content: center;    /* Horizontally center the text */
+    height: 22px;               /* Set a fixed height for the bar */
+
+    margin-bottom: 20px;        /* Add space below the bar */
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #e0b48e; /* Light beige color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.download-button:hover {
+    background-color: #d1a376; /* Darker beige on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777; /* Lighter color for footer */
+}
+.contact-links {
+    display: flex;
+    justify-content: space-around; /* Space out the links equally */
+    align-items: center; /* Center items vertically */
+    margin: 20px 0; /* Optional margin for spacing above and below */
+}
+
+.contactType {
+    text-decoration: none;
+    color: #333; /* Change to your desired color */
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+.contactType i {
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 20px; /* Adjust icon size */
+}
+
+.contactType:hover {
+    color: #0073e6; /* Change to a different color on hover */
+    text-decoration: underline; /* Underline on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.text-prasanna {
+    color: brown;
+}
+
+.text-name {
+    color: #50394c;
+}
+
+.position {
+  font-style: italic;              /* Italicize the text */
+  color: #aaa;                     /* Lighter gray color */
+  margin: 0;                   /* Remove extra space */
+  padding: 0;
+}
+.position::before {
+  content: "• ";                    /* Add the bullet symbol */
+  margin-left: 8px;                /* Space between text and bullet */
+  color: #aaa;                     /* Same light gray color for the bullet */
+  font-size: 1.2em;                /* Slightly larger bullet */
+}
+
+hr {
+  border: 0;
+  height: 1px; /* Thin height */
+  background-color: beige; /* Yellow color */
+}
+
+.relative {
+  cursor: pointer; /* Changes the cursor to indicate hoverable text */
+}
+
+.relative:hover {
+  text-decoration: underline;
+  color: purple; /* Change text color on hover */
+}

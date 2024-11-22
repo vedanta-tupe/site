@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style-album.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="bar-tabs">
+        <!-- index.html -->
+        <a class="tab" data-en="Home" data-mr="मुखपृष्ठ" href="index.html"></a>
+        <a class="tab" data-en="Myself" data-mr="वैयक्तिक" href="#myself"></a>
+        <a class="tab" data-en="Family" data-mr="कुटुंब" href="#family"></a>
+        <a class="tab" data-en="Album" data-mr="अल्बम" href="#album"></a>
+        <!--<a class="tab" data-en="Horoscope" data-mr="कुंडली" href="#horoscope"></a>-->
+        <a class="tab" data-en="Contact" data-mr="संपर्क" href="#contact"></a>
+        <button class="toggle-button" id="toggleButton">English</button>
+        <!-- login.html -->
+        <a class="login" href="login.html">Login</a>
+
+    </div>
+    <div class="section-first">
+        <!--Finalise the ganpati image, content and formats-->
+        <img src="resources/ganpati7.jpg" alt="Ganpati" class="pic-ganpati">
+        <p class="text-prasanna">|| श्री गजानन प्रसन्न ||</p>
+        <hr>
+        <h1 class="text-name" data-en="Vedant Sandeep Tupe" data-mr="वेदांत संदीप तुपे"></h1>
+    </div>
+    <div class="sections" id="myself">
+        <h3 data-en="Personal Details" data-mr="वैयक्तिक माहिती"></h3>
+        <p data-en="<strong>Date Of Birth</strong>: 18/03/1996 (Monday)"
+           data-mr="<strong>जन्मतारीख</strong>: १८/०३/१९९६ (सोमवार)"></p>
+        <p data-en="<strong>Time Of Birth</strong>: 12:30 PM" data-mr="<strong>जन्मवेळ</strong>: १२:३० दुपारी"></p>
+        <p data-en="<strong>Place Of Birth</strong>: Pune" data-mr="<strong>जन्मठिकाण</strong>: पुणे"></p>
+        <hr>
+        <p data-en="<strong>Height</strong>: 5ft 9in" data-mr="<strong>उंची</strong>: ५ फूट ९ इंच"></p>
+        <p data-en="<strong>BMI</strong>: 21.55" data-mr="<strong>बीएमआय</strong>: 21.55"></p>
+        <p data-en="<strong>Blood Group</strong>: O+" data-mr="<strong>रक्त गट</strong>: ओ +"></p>
+        <hr>
+        <p data-en="<strong>Religion</strong>: Hindu" data-mr="<strong>धर्म</strong>: हिंदू"></p>
+        <p data-en="<strong>Culture</strong>: Maratha" data-mr="<strong>संस्कृती</strong>: मराठा"></p>
+        <p data-en="<strong>Nationality</strong>: Indian" data-mr="<strong>राष्ट्रीयत्व</strong>: भारतीय"></p>
+        <hr>
+        <p data-en="<strong>Primary & Secondary Education</strong>: [ICSE] The Bishop's School"
+           data-mr="<strong>प्राथमिक व माध्यमिक शिक्षण</strong>: [ICSE] द बिशप्स स्कूल"></p>
+        <p data-en="<strong>Higher Secondary Education</strong>: [HSC] S.M. Choksey Jr. College"
+           data-mr="<strong>उच्च माध्यमिक शिक्षण</strong>: [HSC] एस. एम. चोक्सी जुनिअर कॉलेज"></p>
+        <p data-en="<strong>Degree</strong>: [B.E. Computer] PDEA College of Engineering"
+           data-mr="<strong>उच्च शिक्षण</strong>: [B.E. Computer] पी.डी.ई.ऐ. अभियांत्रिकी महाविद्यालय "></p>
+        <p data-en="<strong>Job</strong>: [Associate Data Scientist] Capgemini"
+           data-mr="<strong>नोकरी</strong>: [Associate Data Scientist] Capgemini"></p>
+        <!--Centre the format or align with 2 columns properly-->
+    </div>
+    <div class="sections" id="family">
+        <h3 data-en="Family Details" data-mr="कौटुंबिक माहिती"></h3>
+        <!--Add Occupations or entitlements for below-->
+        <p data-en="Father: Mr. Sandeep Dattatreya Tupe" data-mr="वडिल: श्री. संदीप दत्तात्रेय तुपे"></p>
+        <p class="position" data-en="Education: D.M.E. (Mechanical Engineering)"
+           data-mr="शिक्षण: DME (Mechanical Engineering)"></p>
+        <p class="position" data-en="Business: Scaffolding materials supplier"
+           data-mr="व्यवसाय: स्काफोल्डिंग मटेरिअल्स सप्लायर"></p>
+        <p data-en="Mother: Mrs. Sanyukta Sandeep Tupe" data-mr="आई: सौ. संयुक्ता संदीप तुपे"></p>
+        <p class="position" data-en="Education: B. A." data-mr="शिक्षण: B. A."></p>
+        <p data-en="Sister: Reva Sandeep Tupe" data-mr="बहीण: रेवा संदीप तुपे"></p>
+        <p class="position" data-en="Education: B.B.A." data-mr="शिक्षण: B.B.A."></p>
+        <hr>
+        <p data-en="Grandfather: Mr. Dattatreya Tukaram Tupe" data-mr="आजोबा: श्री. दत्तात्रेय तुकाराम तुपे"></p>
+        <p class="position" data-en="Former Chairman, Yashwant Sahakari Sakhar Karkhana, Theur"
+           data-mr="मा. चेअरमन, यशवंत सहकारी साखर कारखाना, थेऊर"></p>
+        <p class="position" data-en="Former Chairman, Bhu. Vikas Bank, Pune"
+           data-mr="मा. चेअरमन, भू. विकास बँक, पुणे"></p>
+        <p data-en="Grandmother: Late Malavanti Dattatreya Tupe" data-mr="आजी: स्व.मालवंती दत्तात्रेय तुपे"></p>
+        <p data-en="Uncle: Mr. Pramod Dattatreya Tupe" data-mr="काका: श्री. प्रमोद दत्तात्रेय तुपे"></p>
+        <p data-en="Resident: Hadapsar, Pune" data-mr="रहिवासी : हडपसर, पुणे"></p>
+        <hr>
+        <p data-en="Grandfather: Mr. Vasantrao Vamanrao Dandwate" data-mr="आजोबा: श्री. वसंतराव वामनराव दंडवते"></p>
+        <p class="position" data-en="Former Director, Kolpewadi Sahakari Sakhar Karkhana, Kopergaon"
+           data-mr="मा. संचालक, कोळपेवाडी सहकारी साखर कारखाना, कोपरगाव "></p>
+        <p data-en="Grandmother: Mrs. Chandrakala Vasantrao Dandwate" data-mr="आजी: सौ.चंद्रकला वसंतराव दंडवते"></p>
+        <p data-en="Uncle: Mr. Babasaheb Vasantrao Dandwate" data-mr="मामा: श्री.बाबासाहेब वसंतराव दंडवते"></p>
+        <p data-en="Resident: Karwadi, Kopergaon" data-mr="रहिवासी : कारवाडी, कोपरगाव"></p>
+        <hr>
+        <!--<p data-en="Relatives: Ghule, More, Kate, Badade, Chaudhari, Dhone, Dhapte, Sadolikar Patil, Kandage, Warghade, Kale, Kharde, Sadaphal"
+           data-mr="नातेसंबंध: घुले, मोरे, काटे, बडदे, चौधरी, ढोणे, धापटे, सडोलीकर पाटील, कांडगे, वारघडे, काळे, खर्डे, सदाफळ"></p>-->
+
+        <p id="englishText" style="display:none;">Relatives:
+            <span class="relative" title="Manjari, Pune">Ghule</span>,
+            <span class="relative" title="Kothrud, Pune"> More</span>,
+            <span class="relative" title="Dapodi, Pune"> Kate</span>,
+            <span class="relative" title="Hadapsar, Pune"> Badade</span>,
+            <span class="relative" title="Golegaon, Pune"> Chaudhari</span>,
+            <span class="relative" title="Market Yard, Pune"> Dhone</span>,
+            <span class="relative" title="Kalas, Pune"> Dhapte</span>,
+            <span class="relative" title="Kolhapur"> Sadolikar Patil</span>,
+            <span class="relative" title="Saswad, Pune"> Kandage</span>,
+            <span class="relative" title="Wagholi, Pune"> Warghade</span>,
+            <span class="relative" title="Mahegaon, Kopergaon, A. Nagar"> Kale</span>,
+            <span class="relative" title="Kolhar, A. Nagar"> Kharde</span>,
+            <span class="relative" title="Rahata, A. Nagar"> Sadaphal</span>
+        </p>
+        <p id="marathiText">नातेसंबंध:
+            <span class="relative" title="मांजरी, पुणे">घुले</span>,
+            <span class="relative" title="कोथरूड, पुणे"> मोरे</span>,
+            <span class="relative" title="दापोडी, पुणे"> काटे</span>,
+            <span class="relative" title="हडपसर, पुणे"> बडदे</span>,
+            <span class="relative" title="गोलेगाव, पुणे"> चौधरी</span>,
+            <span class="relative" title="मार्केट यार्ड, पुणे"> ढोणे</span>,
+            <span class="relative" title="कळस, पुणे"> धापटे</span>,
+            <span class="relative" title="कोल्हापूर"> सडोलीकर पाटील</span>,
+            <span class="relative" title="सासवड, पुणे"> कांडगे</span>,
+            <span class="relative" title="वाघोली, पुणे"> वारघडे</span>,
+            <span class="relative" title="माहेगाव, कोपरगाव, अ.नगर"> काळे</span>,
+            <span class="relative" title="कोल्हार, अ.नगर"> खर्डे</span>,
+            <span class="relative" title="राहता, अ.नगर"> सदाफळ</span>,
+        </p>
+
+    </div>
+    <div class="sections" id="album">
+        <h3 data-en="Album" data-mr="अल्बम"></h3>
+        <div class="container1">
+            <!-- Slide 1 -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="/resources/image1.jpeg" style="width:100%">
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="/resources/image2.jpeg" style="width:100%">
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="/resources/image3.jpeg" style="width:100%">
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="/resources/image4.jpeg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            <br>
+            <!-- Thumbnails for navigation -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="/resources/image1.jpeg" style="width:100%" onclick="currentSlide(1)"
+                         alt="Image 1">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="/resources/image2.jpeg" style="width:100%" onclick="currentSlide(2)"
+                         alt="Image 2">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="/resources/image3.jpeg" style="width:100%" onclick="currentSlide(3)"
+                         alt="Image 3">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="/resources/image4.jpeg" style="width:100%" onclick="currentSlide(4)"
+                         alt="Image 4">
+                </div>
+            </div>
+        </div>
+        <!-- Slider cyclical photos, use waterstamp. ref https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp -->
+    </div>
+
+    <div class="sections" id="horoscope" style="display:none">
+        <h3 data-en="Horoscope" data-mr="कुंडली"></h3>
+        <img src="resources/blank-kundli.jfif" alt="Kundli" class="pic-kundli">
+        <p data-en="Kundli details..." data-mr="कुंडली माहिती..."></p>
+        <a href="kundli.pdf" class="download-button" download>Download Kundli PDF</a>
+    </div>
+    <div class="sections" id="contact">
+        <h3 data-en="Contact" data-mr="संपर्क"></h3>
+        <br>
+        <div class="contact-links">
+            <!-- Fill in the correct deatils -->
+            <a class="contactType" href="https://api.whatsapp.com/send?phone=9172782969" target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <a class="contactType" href="https://www.linkedin.com/in/vedantatupe" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a class="contactType" href="https://www.instagram.com/vedantatupe" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a class="contactType" href="https://t.me/vedantatupe" target="_blank">
+                <i class="fab fa-telegram"></i> Telegram
+            </a>
+        </div>
+        <br>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSetm9siNiw0aUbCaxcYXXR41TfPtccTXRQsixrvurjeluK1rg/viewform?usp=sf_link"
+                width=100% height="828" frameborder="0" marginheight="0" marginwidth="0">Loading…
+        </iframe>
+        <!--Add a comment or send a message box, which will eventually send a mail -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Vedant Tupe. All rights reserved.</p>
+        <p>The use of personal data beyond its intended purpose is prohibited, and any such violation will be subject to
+            enforcement under the Digital Personal Data Protection Act, 2023, the Information Technology Act, 2000, or
+            the Information Technology Rules, 2021.</p>
+    </footer>
+</div>
+<script src="script-album.js"></script>
+<script src="script-language.js"></script>
+</body>
+</html>

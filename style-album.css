@@ -1,0 +1,80 @@
+img {
+  vertical-align: middle;
+}
+
+.container1 {
+  position: relative;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Slideshow images */
+.mySlides img {
+  width: 100%; /* Ensure images fill the container width */
+  height: 80%; /* Set a fixed height for the main image */
+  object-fit: cover; /* Maintain aspect ratio while cropping the image */
+}
+
+/* Styling for next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position "next" button to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (e.g. 1/4) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Clearfix for the row */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Four columns for the thumbnails */
+.column {
+  float: left;
+  width: 25%; /* Adjust for 4 columns */
+}
+
+/* Thumbnail image size */
+.demo {
+  width: 100%; /* Fill the column width */
+  height: 100%; /* Fixed height for uniform thumbnails */
+  object-fit: cover; /* Maintain aspect ratio, crop images if necessary */
+  opacity: 0.6; /* Set opacity for normal state */
+}
+
+.active, .demo:hover {
+  opacity: 1; /* Highlight active or hovered thumbnail */
+}
